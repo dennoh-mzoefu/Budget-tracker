@@ -7,10 +7,10 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.render(
-  // <SpeechProvider appId="7c4aee08-1073-4a32-b862-ebe1850e0732" language="en-US">
-  <Provider>
-    <App />
-  </Provider>,
-  // </SpeechProvider>,
+  <SpeechProvider appId="f2ccddde-2f33-4e53-a3b2-fcac7336809b" language="en-US">
+    <Provider>
+      <App />
+    </Provider>
+  </SpeechProvider>,
   document.getElementById("root")
 );
