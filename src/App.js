@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
 import { Grid } from "@material-ui/core";
-import Details from "./Components/Details/Details";
+import Details from "./components/Details/Details";
 import useStyles from "./styles.js";
-import Main from "./Components/Main/Main";
+import Main from "./components/Main/Main";
 import {
   PushToTalkButtonContainer,
   PushToTalkButton,
